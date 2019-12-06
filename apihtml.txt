@@ -1,0 +1,36 @@
+API.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Weather</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+<body >
+<div class="xyz">
+  
+    <div class="input">
+      <input type="text" placeholder="City" class="input_text">
+      <input type="submit" value="Submit" class="submit">
+      
+    </div>
+    
+  </div>
+  <div class="container">
+    <div class="city">
+     
+      <h1 class="name" id="name"></h1>
+      <p class="temp"></p>
+      <p class="icon"></p>
+      <p class="desc"></p>
+    </div>
+  </div>
+</div>
+<script src="api.js"></script>
+</body>
+</html>
+

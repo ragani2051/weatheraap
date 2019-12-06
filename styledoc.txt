@@ -1,0 +1,78 @@
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Times New Roman', Times, serif;
+ background-image: url(xyz.jpg);
+}
+
+.input{
+  text-align: center;
+  margin-top:50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 40px;
+  
+}
+
+input[type="submit"]{
+  padding: 15px 30px;
+  background: whitesmoke;
+  border: none;
+  border-radius: 1px;
+  font-family:'Times New Roman', Times, serif;
+  font-weight:bold;
+  font-size: 20px;
+}
+
+.input input[type="text"]{
+  width: 600px;
+  height: 55px;
+  padding: 5px 10px;
+  background:whitesmoke;
+  border: none;
+  border-radius: 1px;
+  font-family:'Times New Roman', Times, serif;
+  font-weight:bold;
+  font-size: 20px;
+}
+
+.city{
+  width: 50%;
+    height: 40vh;
+  margin: auto;
+  background-image: url(city.jpg);
+  
+}
+
+
+.close{
+  float: right;
+  margin-top: -2px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.city h1{
+  padding: 5px 0;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.city p{
+  text-align: center;
+  margin:20px 0;
+  font-size:20px;
+}
+.container{
+  
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
